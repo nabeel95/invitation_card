@@ -21,4 +21,9 @@ public class Invitation {
         return format.print();
     }
 
+    public String getNameAlongWithCountryFormatOne(String country){
+        Format format = new AlongWithCountryFormatOne(this.data,country);
+        return format.print();
+    }
+
 }

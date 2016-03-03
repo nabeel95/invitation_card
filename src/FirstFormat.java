@@ -19,17 +19,16 @@ public class FirstFormat implements Format {
 
     @Override
     public String print() {
-//        MyItr itr = new MyItr(list,0);
         MyItr itr = list.listIterator(0);
-        while (itr.hasNext()){
-
-            if(itr.currentNode.gender.charAt(0)=="M".charAt(0)) {
-                System.out.println(res);
-                res+="Mr";
-            }
-            else if (itr.currentNode.gender.charAt(0)=="F".charAt(0))
+        for (int i=0;i<list.length;i++){
+            if(itr.currentNode.gender.equals("Female")) {
                 res+="Ms";
-            res+=" "+itr.currentNode.firstName+" "+itr.currentNode.lastName+"\n"+itr.currentNode.city+" "+itr.currentNode.state+" "+itr.currentNode.country+"\n";
+            }
+            else if (itr.currentNode.gender.equals("Male"))
+                res+="Mr";
+            res+=" "+itr.currentNode.firstName+" "+itr.currentNode.lastName;
+            if (itr.hasNext())
+                res+="\n";
             itr.next();
         }
         return res;
