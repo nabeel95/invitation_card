@@ -1,6 +1,6 @@
 public class LinkList {
-    public Node first;
-    public Node last;
+    public Person first;
+    public Person last;
     public int length;
 
     public LinkList(){
@@ -9,7 +9,7 @@ public class LinkList {
         this.length=0;
     }
 
-    public int add(Node node){
+    public int add(Person node){
         if(this.length==0){
             this.first=node;
             this.last=node;
@@ -24,11 +24,30 @@ public class LinkList {
     }
 
     public Object getNodeAt(int index){
-        Node node = this.first;
+        Person node = this.first;
         for (int i=0;i<index;i++){
             node=node.next;
         }
         return node;
+    }
+    public class MyItr {
+        public LinkList list;
+        public int currentIndex;
+        public Person currentNode;
+
+        public MyItr(LinkList list,int index){
+            this.list=list;
+            this.currentIndex=index;
+            currentNode =  (Person) list.getNodeAt(index);
+        }
+
+        public boolean hasNext(){
+            return currentNode.next!=null;
+        }
+        public void next(){
+            currentNode=currentNode.next;
+        }
+
     }
 
     public MyItr listIterator(int index){

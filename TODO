@@ -1,0 +1,38 @@
+Build a library that can print labels invitation card
+
+given formats===>
+    firstName,lastName,gender,age,city,state,country
+
+Output should be like
+    Mr/Ms firstname lastname
+        or
+    Mr/Ms lastname firstname
+Rules==>
+    Prefix=>
+        For male prefix should be Mr
+        and for female prefix should be Ms.
+--------------------------------------------------------------------------
+usages-->
+   $ ./labelPrinter.sh <-ff> record.text
+   $ ./labelPrinter.sh <-lf> record.text
+PrintLabel==>
+   PrintLabel_firstLast.sh==> $ java LabelPrinter -fl $*
+   PrintLabel_lastFirst.sh==> $ java LabelPrinter -lf $*
+--------------------------------------------------------------------------------
+Design==>
+    LabelPrinter-->
+        Readfile
+        splited data and get each data.
+         Make format using library -->
+            Name(using name)
+            Gender(using Gender)
+            Address(Address)
+        Pass this data to Person and person will give output
+    Library-->
+        Person--> a. FirstName
+                  b. LastName
+                  c. Gender
+                  d. Age
+                  e. City
+                  f. State
+                  g. country
