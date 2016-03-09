@@ -23,7 +23,7 @@ public class LinkList {
         return this.length;
     }
 
-    public Object getNodeAt(int index){
+    private Object getNodeAt(int index){
         Person node = this.first;
         for (int i=0;i<index;i++){
             node=node.next;

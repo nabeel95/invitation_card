@@ -1,53 +1,33 @@
 public class Person {
     Person next;
     Person previous;
-    private String firstName;
-    private String lastName;
-    private String gender;
-    private int age;
-    private String city;
-    private String state;
-    private String country;
-    private String prefix;
+    private Name name;
+    private Gender gender;
+    private Address address;
+    private Age age;
 
-    public Person(){
+    public Person(Name name,Gender gender,Age age,Address address){
         this.next=null;
         this.previous=null;
+        this.name=name;
+        this.age=age;
+        this.gender=gender;
+        this.address=address;
     }
 
-    public void insertValue(String values) {
-        String []arr = values.split(",");
-        this.firstName=arr[0];
-        this.lastName=arr[1];
-        this.gender=arr[2];
-        this.age=Integer.parseInt(arr[3]);
-        this.city=arr[4];
-        this.state=arr[5];
-        this.country=arr[6];
-        if(this.gender.equals("Male")){
-            this.prefix="Mr";
-        }
-        else if(this.gender.equals("Female")){
-            this.prefix="Ms";
-        }
-    }
 
     public String getCountry(){
-        return this.country;
+        Country country = this.address.getCountry();
+        return country.countryName();
     }
-    public String getFirstName(){
-        return this.firstName;
-    }
+    public String getFirstName(){ return this.name.giveFirstName();}
     public String getLastName(){
-        return this.lastName;
-    }
-    public String getGender(){
-        return this.gender;
+        return this.name.giveLastName();
     }
     public int getAge(){
-        return this.age;
+        return this.age.getAge();
     }
     public String getPrefix(){
-        return this.prefix;
+        return this.gender.getGender().equals("Male") ? "Mr" :"Ms";
     }
 }

@@ -1,20 +1,24 @@
 
 public class InformalWithCountry implements Format {
-    String data;
+    String records;
     String res="";
     LinkList list = new LinkList();
     String givenCountry;
-    public InformalWithCountry(String data,String country){
+    public InformalWithCountry(String records,String country){
         this.givenCountry=country;
-        this.data=data;
+        this.records=records;
         scan();
     }
     @Override
     public void scan() {
-        String[] splittedData=data.split("\n");
-        for (String aSplittedData : splittedData) {
-            Person node = new Person();
-            node.insertValue(aSplittedData);
+        String[] splittedrecords=records.split("\n");
+        for (String aSplittedrecords : splittedrecords) {
+            String[] splittedByComma = aSplittedrecords.split(",");
+            Name name = new Name(splittedByComma[0],splittedByComma[1]);
+            Gender gender = new Gender(splittedByComma[2]);
+            Age age = new Age(Integer.parseInt(splittedByComma[3]));
+            Address address = new Address(new City(splittedByComma[4]) , new State(splittedByComma[5]) , new Country(splittedByComma[6]));
+            Person node = new Person(name,gender,age,address);
             if(node.getCountry().equals(givenCountry)) {
                 list.add(node);
             }

@@ -13,11 +13,13 @@ Rules==>
         and for female prefix should be Ms.
 --------------------------------------------------------------------------
 usages-->
-   $ ./labelPrinter.sh <-ff> record.text
-   $ ./labelPrinter.sh <-lf> record.text
-PrintLabel==>
-   PrintLabel_firstLast.sh==> $ java LabelPrinter -fl $*
-   PrintLabel_lastFirst.sh==> $ java LabelPrinter -lf $*
+   $ ./labelPrinter.sh <-ff> <filePath> -                    first name first format.
+   $ ./labelPrinter.sh <-lf> <filePath> -                    last name first format.
+   $ ./labelPrinter.sh <-ffc> <filePath> <country> -         first name first format along with country.
+   $ ./labelPrinter.sh <-lfc> <filePath> <country> -         last name first format along with country.
+   $ ./labelPrinter.sh <-ffca> <filePath> <country> <age> -  first name first format along with country and age.
+   $ ./labelPrinter.sh <-lfca> <filePath> <country> <age> -  last name first formal along with country and age.
+
 --------------------------------------------------------------------------------
 Design==>
     LabelPrinter-->
@@ -26,6 +28,7 @@ Design==>
          Make format using library -->
             Name(using name)
             Gender(using Gender)
+            Age(using age)
             Address(Address)
         Pass this data to Person and person will give output
     Library-->
