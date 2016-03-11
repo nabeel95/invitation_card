@@ -2,42 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e5c266b-01e2-4fe2-ab1b-ca109c8cc16e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/dataToTest.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Address.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Age.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/City.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Country.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Gender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Name.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/State.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/AddressTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/AgeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/CityTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/CountryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/DataReaderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/GenderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/NameTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/StateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InvitationLabel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/guestinfo/Address.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/guestinfo/Age.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/guestinfo/City.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/guestinfo/Gender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/guestinfo/Name.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/guestinfo/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/guestinfo/State.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/invitation_card/Address.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/invitation_card/Age.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/invitation_card/City.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/invitation_card/Country.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/invitation_card/Gender.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/invitation_card/Name.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/invitation_card/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/invitation_card/State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Address.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Age.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/City.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Gender.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Name.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/State.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Country.java" afterPath="$PROJECT_DIR$/src/guestinfo/Country.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/DataReader.class" afterPath="$PROJECT_DIR$/out/DataReader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Formal.class" afterPath="$PROJECT_DIR$/out/Formal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/FormalCountryAndAge.class" afterPath="$PROJECT_DIR$/out/FormalCountryAndAge.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/FormalWithCountry.class" afterPath="$PROJECT_DIR$/out/FormalWithCountry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Format.class" afterPath="$PROJECT_DIR$/out/Format.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Informal.class" afterPath="$PROJECT_DIR$/out/Informal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/InformalCountryAndAge.class" afterPath="$PROJECT_DIR$/out/InformalCountryAndAge.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/InformalWithCountry.class" afterPath="$PROJECT_DIR$/out/InformalWithCountry.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/InvitationMain.class" afterPath="$PROJECT_DIR$/out/InvitationMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/LinkList$MyItr.class" afterPath="$PROJECT_DIR$/out/LinkList$MyItr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/LinkList.class" afterPath="$PROJECT_DIR$/out/LinkList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Name.class" afterPath="$PROJECT_DIR$/out/Name.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/Person.class" afterPath="$PROJECT_DIR$/out/Person.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/DataReader.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/DataReader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/Formal.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/Formal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/FormalCountryAndAge.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/FormalCountryAndAge.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/FormalWithCountry.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/FormalWithCountry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/Format.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/Format.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/Informal.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/Informal.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/InformalCountryAndAge.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/InformalCountryAndAge.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/InformalWithCountry.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/InformalWithCountry.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/InvitationMain.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/InvitationMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/LinkList$MyItr.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/LinkList$MyItr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/LinkList.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/LinkList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/invitation_card/Person.class" afterPath="$PROJECT_DIR$/out/production/invitation_card/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/AddressTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/AddressTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/AgeTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/AgeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/CityTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/CityTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/CountryTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/CountryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/FormalCountryAndAgeTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/FormalCountryAndAgeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/FormalTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/FormalTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/FormalWithCountryTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/FormalWithCountryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/GenderTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/GenderTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/InformalCountryAndAgeTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/InformalCountryAndAgeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/InformalTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/InformalTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/InformalWithCountryTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/InformalWithCountryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/NameTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/NameTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/invitation_card/StateTest.class" afterPath="$PROJECT_DIR$/out/test/invitation_card/StateTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/nabeel.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/nabeel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
@@ -46,12 +71,25 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Formal.java" afterPath="$PROJECT_DIR$/src/Formal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FormalCountryAndAge.java" afterPath="$PROJECT_DIR$/src/FormalCountryAndAge.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FormalWithCountry.java" afterPath="$PROJECT_DIR$/src/FormalWithCountry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Format.java" afterPath="$PROJECT_DIR$/src/Format.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Informal.java" afterPath="$PROJECT_DIR$/src/Informal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InformalCountryAndAge.java" afterPath="$PROJECT_DIR$/src/InformalCountryAndAge.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InformalWithCountry.java" afterPath="$PROJECT_DIR$/src/InformalWithCountry.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InvitationMain.java" afterPath="$PROJECT_DIR$/src/InvitationMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkList.java" afterPath="$PROJECT_DIR$/src/LinkList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Person.java" afterPath="$PROJECT_DIR$/src/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/AddressTest.java" afterPath="$PROJECT_DIR$/test/AddressTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/AgeTest.java" afterPath="$PROJECT_DIR$/test/AgeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CityTest.java" afterPath="$PROJECT_DIR$/test/CityTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CountryTest.java" afterPath="$PROJECT_DIR$/test/CountryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/FormalCountryAndAgeTest.java" afterPath="$PROJECT_DIR$/test/FormalCountryAndAgeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/FormalTest.java" afterPath="$PROJECT_DIR$/test/FormalTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/FormalWithCountryTest.java" afterPath="$PROJECT_DIR$/test/FormalWithCountryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/GenderTest.java" afterPath="$PROJECT_DIR$/test/GenderTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/InformalCountryAndAgeTest.java" afterPath="$PROJECT_DIR$/test/InformalCountryAndAgeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/InformalTest.java" afterPath="$PROJECT_DIR$/test/InformalTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/InformalWithCountryTest.java" afterPath="$PROJECT_DIR$/test/InformalWithCountryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/NameTest.java" afterPath="$PROJECT_DIR$/test/NameTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/StateTest.java" afterPath="$PROJECT_DIR$/test/StateTest.java" />
     </list>
     <ignored path="invitation_card.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,6 +102,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/invitation_card$All_in_invitation_card.coverage" NAME="All in invitation_card Coverage Results" MODIFIED="1457691286718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -73,71 +114,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InvitationMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InvitationMain.java">
+      <file leaf-file-name="DataReader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Informal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Informal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="labelPrinter.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labelPrinter.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03968254">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InformalWithCountry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InformalWithCountry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Formal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Formal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormalCountryAndAge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FormalCountryAndAge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.70719606">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -164,57 +145,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/Invitation.java" />
-        <option value="$PROJECT_DIR$/src/Node.java" />
-        <option value="$PROJECT_DIR$/src/Format.java" />
-        <option value="$PROJECT_DIR$/src/AlongWithCountryFormat.java" />
         <option value="$PROJECT_DIR$/src/TryingWorking.java" />
         <option value="$PROJECT_DIR$/src/SecondFormat.java" />
         <option value="$PROJECT_DIR$/test/AlongWithCountryF2Test.java" />
         <option value="$PROJECT_DIR$/src/FirstFormat.java" />
         <option value="$PROJECT_DIR$/test/FirstFormatTest.java" />
         <option value="$PROJECT_DIR$/test/SecondFormatTest.java" />
-        <option value="$PROJECT_DIR$/test/InformalTest.java" />
         <option value="$PROJECT_DIR$/src/AlongWithCountryFormatTwo.java" />
         <option value="$PROJECT_DIR$/src/AlongWithCountryFormatOne.java" />
         <option value="$PROJECT_DIR$/test/AlongWithCountryF1Test.java" />
-        <option value="$PROJECT_DIR$/test/InformalWithCountryTest.java" />
         <option value="$PROJECT_DIR$/src/Invitation.java" />
-        <option value="$PROJECT_DIR$/test/FormalWithCountryTest.java" />
         <option value="$PROJECT_DIR$/build/invitationPrint.sh" />
         <option value="$PROJECT_DIR$/runner.sh" />
-        <option value="$PROJECT_DIR$/test/FormalCountryAndAgeTest.java" />
-        <option value="$PROJECT_DIR$/test/InformalCountryAndAgeTest.java" />
         <option value="$PROJECT_DIR$/src/MyItr.java" />
-        <option value="$PROJECT_DIR$/src/LinkList.java" />
-        <option value="$PROJECT_DIR$/src/Age.java" />
         <option value="$PROJECT_DIR$/test/AgeTest.java" />
-        <option value="$PROJECT_DIR$/src/Gender.java" />
         <option value="$PROJECT_DIR$/test/GenderTest.java" />
-        <option value="$PROJECT_DIR$/src/Address.java" />
         <option value="$PROJECT_DIR$/test/AddressTest.java" />
-        <option value="$PROJECT_DIR$/src/City.java" />
         <option value="$PROJECT_DIR$/test/CityTest.java" />
-        <option value="$PROJECT_DIR$/src/State.java" />
         <option value="$PROJECT_DIR$/test/StateTest.java" />
-        <option value="$PROJECT_DIR$/src/Country.java" />
         <option value="$PROJECT_DIR$/test/CountryTest.java" />
-        <option value="$PROJECT_DIR$/src/FormalCountryAndAge.java" />
-        <option value="$PROJECT_DIR$/src/InformalCountryAndAge.java" />
-        <option value="$PROJECT_DIR$/src/FormalWithCountry.java" />
         <option value="$PROJECT_DIR$/test/NameTest.java" />
-        <option value="$PROJECT_DIR$/src/Informal.java" />
-        <option value="$PROJECT_DIR$/TODO" />
-        <option value="$PROJECT_DIR$/src/Formal.java" />
-        <option value="$PROJECT_DIR$/test/FormalTest.java" />
-        <option value="$PROJECT_DIR$/src/Person.java" />
         <option value="$PROJECT_DIR$/data/dataToTest.txt" />
         <option value="$PROJECT_DIR$/test/DataReaderTest.java" />
-        <option value="$PROJECT_DIR$/src/Name.java" />
-        <option value="$PROJECT_DIR$/src/InformalWithCountry.java" />
+        <option value="$PROJECT_DIR$/src/Address.java" />
+        <option value="$PROJECT_DIR$/src/Age.java" />
+        <option value="$PROJECT_DIR$/src/City.java" />
+        <option value="$PROJECT_DIR$/src/Country.java" />
         <option value="$PROJECT_DIR$/src/DataReader.java" />
-        <option value="$PROJECT_DIR$/src/InvitationMain.java" />
+        <option value="$PROJECT_DIR$/src/Gender.java" />
+        <option value="$PROJECT_DIR$/src/State.java" />
+        <option value="$PROJECT_DIR$/src/Name.java" />
+        <option value="$PROJECT_DIR$/src/Person.java" />
+        <option value="$PROJECT_DIR$/src/LinkList.java" />
+        <option value="$PROJECT_DIR$/src/Format.java" />
+        <option value="$PROJECT_DIR$/src/InformalCountryAndAge.java" />
+        <option value="$PROJECT_DIR$/test/FormalCountryAndAgeTest.java" />
+        <option value="$PROJECT_DIR$/test/InformalCountryAndAgeTest.java" />
         <option value="$PROJECT_DIR$/labelPrinter.sh" />
+        <option value="$PROJECT_DIR$/src/InvitationLabel.java" />
+        <option value="$PROJECT_DIR$/src/Informal.java" />
+        <option value="$PROJECT_DIR$/src/FormalWithCountry.java" />
+        <option value="$PROJECT_DIR$/src/InformalWithCountry.java" />
+        <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/test/FormalTest.java" />
+        <option value="$PROJECT_DIR$/test/InformalTest.java" />
+        <option value="$PROJECT_DIR$/test/FormalWithCountryTest.java" />
+        <option value="$PROJECT_DIR$/test/InformalWithCountryTest.java" />
+        <option value="$PROJECT_DIR$/src/FormalCountryAndAge.java" />
+        <option value="$PROJECT_DIR$/src/InvitationMain.java" />
+        <option value="$PROJECT_DIR$/src/guestinfo/Gender.java" />
+        <option value="$PROJECT_DIR$/src/Formal.java" />
+        <option value="$PROJECT_DIR$/src/guestinfo/Person.java" />
       </list>
     </option>
   </component>
@@ -293,6 +274,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation_card" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="invitation_card" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guestinfo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,63 +745,64 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_invitation_card - 2016.03.09 at 09h 43m 50s.xml">
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 46m 30s.xml">
       <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_invitation_card - 2016.03.09 at 10h 21m 08s.xml">
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 52m 47s.xml">
       <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_invitation_card - 2016.03.09 at 10h 46m 47s.xml">
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 52m 52s.xml">
       <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_invitation_card - 2016.03.09 at 10h 47m 38s.xml">
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 52m 59s.xml">
       <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_invitation_card - 2016.03.09 at 10h 48m 00s.xml">
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 54m 02s.xml">
       <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_invitation_card - 2016.03.09 at 11h 01m 09s.xml">
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 54m 07s.xml">
       <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_invitation_card - 2016.03.09 at 11h 09m 33s.xml">
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 54m 38s.xml">
       <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataReaderTest - 2016.03.09 at 10h 45m 45s.xml">
-      <configuration name="DataReaderTest" configurationId="JUnit" />
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 55m 43s.xml">
+      <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataReaderTest - 2016.03.09 at 10h 46m 15s.xml">
-      <configuration name="DataReaderTest" configurationId="JUnit" />
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 56m 24s.xml">
+      <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DataReaderTest - 2016.03.09 at 10h 46m 37s.xml">
-      <configuration name="DataReaderTest" configurationId="JUnit" />
+    <history-entry file="All_in_invitation_card - 2016.03.11 at 15h 57m 09s.xml">
+      <configuration name="All in invitation_card" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="23" width="1379" height="877" extended-state="6" />
+    <frame x="60" y="23" width="1379" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2624204" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.012738854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44968152" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.152809" sideWeight="0.48280254" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22696629" sideWeight="0.47577855" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48025477" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494382" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152809" sideWeight="0.51719743" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.152809" sideWeight="0.5242215" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2624204" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05732484" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -853,30 +853,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/labelPrinter.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Formal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InformalWithCountry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/InformalWithCountryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -909,13 +885,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -974,140 +950,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Format.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/FormalWithCountryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5019685">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/InformalCountryAndAgeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1758794">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AgeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/CityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/StateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/CountryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#91#92#0" expanded="false" />
-            <element signature="e#133#134#0" expanded="false" />
-            <element signature="e#167#168#0" expanded="false" />
-            <element signature="e#206#207#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Age.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InformalCountryAndAge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5090909">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FormalWithCountry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6272727">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/NameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46028882">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18953069">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#144#145#0" expanded="false" />
-            <element signature="e#180#181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/InformalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1116,24 +962,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/FormalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33730158">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/records.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="56" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1144,7 +973,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/FormalCountryAndAgeTest.java">
+    <entry file="file://$PROJECT_DIR$/test/NameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -1152,84 +981,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DataReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18838304">
-          <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Address.java">
+    <entry file="file://$PROJECT_DIR$/test/StateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Person.java">
+    <entry file="file://$PROJECT_DIR$/test/AgeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/InformalWithCountryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.06880734">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/AddressTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.5045872">
           <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Gender.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/lang/IllegalArgumentException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19575857">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023112481">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023112481">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DataReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20618556">
+          <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10309278">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1237,7 +1058,151 @@
     <entry file="file://$PROJECT_DIR$/src/LinkList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InformalCountryAndAge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FormalCountryAndAgeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16363636">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/InformalCountryAndAgeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19090909">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labelPrinter.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Informal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0224719">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/Age.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FormalWithCountry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8574144">
+          <caret line="78" column="19" selection-start-line="56" selection-start-column="7" selection-end-line="78" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/records.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="80" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/InformalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FormalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="20" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/FormalWithCountryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InformalWithCountry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/InformalWithCountryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Format.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0703125">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar!/WrapperGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0862069">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1245,47 +1210,81 @@
     <entry file="file://$PROJECT_DIR$/src/FormalCountryAndAge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding>
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InvitationMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2579365">
+          <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InvitationLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77380955">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16997167">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4036827">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Formal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.13597734">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InformalWithCountry.java">
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.6161473">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InvitationMain.java">
+    <entry file="file://$PROJECT_DIR$/src/guestinfo/Name.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-          <folding />
+        <state vertical-scroll-proportion="0.27620396">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Informal.java">
+    <entry file="file://$PROJECT_DIR$/src/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/labelPrinter.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03968254">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.70719606">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding />
         </state>
       </provider>

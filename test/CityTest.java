@@ -1,3 +1,4 @@
+import guestinfo.City;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -19,23 +19,36 @@ usages-->
    $ ./labelPrinter.sh <-lfc> <filePath> <country> -         last name first format along with country.
    $ ./labelPrinter.sh <-ffca> <filePath> <country> <age> -  first name first format along with country and age.
    $ ./labelPrinter.sh <-lfca> <filePath> <country> <age> -  last name first formal along with country and age.
-
+   $ ./labelPrinter.sh <-ffb> <filePath> -                   First name first format with border.
+   $ ./labelPrinter.sh <-lfb> <filePath> -                   Last name first format with border.
+   $ ./labelPrinter.sh <-ffcb> <filePath> <country> -        First name first format along with country with border.
+   $ ./labelPrinter.sh <-lfcb> <filePath> <country> -        Last name first format along with country with border.
+   $ ./labelPrinter.sh <-ffcab> <filePath> <country> <age> - First name first format along with country and age with border.
+   $ ./labelPrinter.sh <-lfcab> <filePath> <country> <age> - Last name first formal along with country and age with border.
 --------------------------------------------------------------------------------
 Design==>
     LabelPrinter-->
         Readfile
         splited data and get each data.
          Make format using library -->
-            Name(using name)
-            Gender(using Gender)
-            Age(using age)
-            Address(Address)
-        Pass this data to Person and person will give output
+            guestinfo.Name(using name)
+            guestinfo.Gender(using guestinfo.Gender)
+            guestinfo.Age(using age)
+            guestinfo.Address(guestinfo.Address)
+        Pass this data to guestinfo.Person and person will give output
     Library-->
-        Person--> a. FirstName
+        guestinfo.Person--> a. FirstName
                   b. LastName
-                  c. Gender
-                  d. Age
-                  e. City
-                  f. State
+                  c. guestinfo.Gender
+                  d. guestinfo.Age
+                  e. guestinfo.City
+                  f. guestinfo.State
                   g. country
+
+With Border Format -
+            +----------------------+
+            | Mr John Smith        |
+            |----------------------|
+            | New Delhi, Karnataka |
+            | India                |
+            +----------------------+

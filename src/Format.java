@@ -1,5 +1,10 @@
 public interface Format {
     void scan();
-    String print();
+
+    String print(String arg);
+
+    String printWithBorder();
+
+    String printWithoutBorder();
 
 }

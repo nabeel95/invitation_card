@@ -1,3 +1,4 @@
+import guestinfo.Country;
 import org.junit.Assert;
 import org.junit.Test;
 

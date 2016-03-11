@@ -1,3 +1,4 @@
+import guestinfo.Age;
 import org.junit.Assert;
 import org.junit.Test;
 

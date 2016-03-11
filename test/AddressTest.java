@@ -1,3 +1,7 @@
+import guestinfo.Address;
+import guestinfo.City;
+import guestinfo.Country;
+import guestinfo.State;
 import org.junit.Assert;
 import org.junit.Test;
 
