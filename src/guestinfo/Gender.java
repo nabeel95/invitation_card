@@ -1,5 +1,7 @@
 package guestinfo;
 
+import java.util.HashMap;
+
 public class Gender {
 
     private String gender;
@@ -8,7 +10,10 @@ public class Gender {
         this.gender = gender;
     }
 
-    public String getGender() {
-        return this.gender;
+    public String getPrefix() {
+        HashMap<String ,String> prefixes = new HashMap<>();
+        prefixes.put("Male" ,"Mr");
+        prefixes.put("Female" ,"Ms");
+        return prefixes.get(gender);
     }
 }

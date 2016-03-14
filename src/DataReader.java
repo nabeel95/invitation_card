@@ -1,7 +1,11 @@
+import guestinfo.Person;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
 
 class DataReader {
     private String fileName;
@@ -9,16 +13,17 @@ class DataReader {
     public DataReader(String fileName) {
         this.fileName = fileName;
     }
-
-    public String getData() {
+    LinkedList<Person> list = new LinkedList<>();
+    public List<Person> getData() {
         FileReader file;
-        String text = "";
         try {
             file = new FileReader(this.fileName);
             BufferedReader reader = new BufferedReader(file);
             String line = reader.readLine();
             while (line != null) {
-                text += line + "\n";
+                Person person = new Person(line);
+                person.initialiseValues();
+                list.add(person);
                 line = reader.readLine();
             }
         } catch (FileNotFoundException e) {
@@ -26,6 +31,6 @@ class DataReader {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return text;
+        return list;
     }
 }

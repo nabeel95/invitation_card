@@ -1,22 +1,24 @@
 package guestinfo;
 
+
 public class Person {
-    public Person next;
-    public Person previous;
+    private String fullLine;
     private Name name;
     private Gender gender;
     private Address address;
     private Age age;
 
-    public Person(Name name, Gender gender, Age age, Address address) {
-        this.next = null;
-        this.previous = null;
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        this.address = address;
+    public Person(String line) {
+        this.fullLine = line;
     }
 
+    public void initialiseValues() {
+        String[] spllittedValues = this.fullLine.split(",");
+        this.name = new Name(spllittedValues[0], spllittedValues[1]);
+        this.gender = new Gender(spllittedValues[2]);
+        this.age = new Age(Integer.parseInt(spllittedValues[3]));
+        this.address = new Address(new City(spllittedValues[4]), new State(spllittedValues[5]), new Country(spllittedValues[6]));
+    }
 
     public String getCountry() {
         Address address = this.address;
@@ -36,23 +38,23 @@ public class Person {
         return state.stateName();
     }
 
-    public String getFirstName() {
-        Name name = this.name;
-        return name.giveFirstName();
-    }
-
-    public String getLastName() {
-        Name name = this.name;
-        return name.giveLastName();
+    public Name getName() {
+        return this.name;
     }
 
     public int getAge() {
-        Age age = this.age;
-        return age.getAge();
+        return this.age.getAge();
     }
 
     public String getPrefix() {
-        Gender gender = this.gender;
-        return gender.getGender().equals("Male") ? "Mr" : "Ms";
+        return gender.getPrefix();
+    }
+
+    public boolean isCitizenOf(String country) {
+        return this.getCountry().equals(country);
+    }
+
+    public boolean isOlderThan(int age) {
+        return this.age.getAge() >= age;
     }
 }
